@@ -43,7 +43,8 @@ structure containing your trigrams from it.
 
 Bonus:
 
-* Automate feeding the algorithm with books from Project Gutenberg.
+* Feed your altgorithm from a file containing a large amount of text, e.g. a book from Project Gutenberg.
+* Automate feeding the algorithm with more books from Project Gutenberg.
 
 Got an idea for a bonus task? Fork the repo and add it!
 
