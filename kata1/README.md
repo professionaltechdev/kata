@@ -32,7 +32,7 @@ See the main article for more details!
 # Tasks
 
 * Using the dictionary listed above ("I wish I may I wish I might"), select a random
-key as the start of your sentence, and use the map to attach a word to it.
+key as the start of your sentence, and use the dictionary to attach a word to it.
 * Loop through this process with the final 2 words in your sentence each time
 to extend the sentence. Stop the loop when you reach a key that does not exist
 in your dictionary.
