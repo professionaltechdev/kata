@@ -31,9 +31,15 @@ See the main article for more details!
 
 # Tasks
 
+* Using the dictionary listed above ("I wish I may I wish I might"), select a random
+key as the start of your sentence, and use the map to attach a word to it.
+* Loop through this process with the final 2 words in your sentence each time
+to extend the sentence. Stop the loop when you reach a key that does not exist
+in your dictionary.
 * Build a simple algorithm that analyses a piece of text and builds a data
 structure containing your trigrams from it.
-* Use that structure to build a short story.
+* Apply your loop from the first few tasks to that text to produce a new story.
+* Post your best stories in slack!
 
 Bonus:
 
