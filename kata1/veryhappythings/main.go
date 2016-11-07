@@ -3,7 +3,9 @@ package main
 import (
     "errors"
     "fmt"
+    "io/ioutil"
     "math/rand"
+    "os"
     "strings"
 )
 
@@ -52,18 +54,16 @@ func attachToSentence(trigrams map[string][]string, inSentence string) (string, 
 }
 
 func main() {
-    trigrams := buildMap("I wish I may I wish I might")
+    var err error
 
+    dat, err := ioutil.ReadFile(os.Args[1])
+    trigrams := buildMap(string(dat))
     k := keys(trigrams)
 
     var next string
-    var err error
-
     next = k[rand.Intn(len(k))]
-    fmt.Println(next)
     for err == nil {
         next, err = attachToSentence(trigrams, next)
-        fmt.Println(next)
     }
     fmt.Println(next)
 }
