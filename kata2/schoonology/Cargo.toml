@@ -1,0 +1,8 @@
+[package]
+name = "kata2"
+version = "0.1.0"
+authors = ["Michael Schoonmaker <michael.r.schoonmaker@gmail.com>"]
+publish = false
+
+[dependencies]
+rustbox = "0.8.1"
